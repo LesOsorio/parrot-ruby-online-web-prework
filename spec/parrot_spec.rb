@@ -2,7 +2,7 @@ require_relative './spec_helper'
 require_relative '../parrot.rb' # Code your solution in this file
 
 def '#parrot'(default)
-  defualt "please let me pass" 
+  puts "please let me pass" 
 end
 
   it 'should return the default phrase, "Squawk!" when called without any arguments' do
